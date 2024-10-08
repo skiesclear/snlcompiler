@@ -1,0 +1,19 @@
+type table:
+serial number  size           kind           indexTy        elemTy         low            body{type serial,varName,off}
+1              1              Int            /              /              /              /              
+2              1              Char           /              /              /              /              
+3              1              Bool           /              /              /              /              
+4              20             Array          1              1              1              /              
+
+ signal table
+IDname         TypePtr        Kind           Level          Parm           Code           Size           Access         Off            
+i1             1              VarKind        1              /              /              /              dir            0              
+j1             1              VarKind        1              /              /              /              dir            1              
+num1           1              VarKind        1              /              /              /              dir            2              
+a              4              VarKind        1              /              /              /              dir            3              
+q              /              ProcKind       1              { 1 }          /              5              /              /              
+num            1              VarKind        2              /              /              /              dir            0              
+i              1              VarKind        2              /              /              /              dir            1              
+j              1              VarKind        2              /              /              /              dir            2              
+k              1              VarKind        2              /              /              /              dir            3              
+t              1              VarKind        2              /              /              /              dir            4              
